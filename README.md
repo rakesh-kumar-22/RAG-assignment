@@ -19,7 +19,13 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 4. Configure Environment Variables
+Create a `.env` file in the project root and add your OpenAI API key:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 5. Run the Application
 ```bash
 streamlit run src/app.py
 ```
@@ -29,5 +35,9 @@ streamlit run src/app.py
 - **Streamlit UI** - Interactive web interface for expense tracking
 - **Monthly Charts** - Visualize spending patterns per month
 - **Memory Feature** - View your last question with "Show my last question"
+
+## Demo
+
+A recorded demonstration of the application is available in the `demo/` folder.
 
 
